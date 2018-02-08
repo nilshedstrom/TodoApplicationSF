@@ -84,17 +84,12 @@ namespace TodoWebApi.Controllers
         /// </summary>
         public string Description { get; set; }
 
-        /// <summary>
-        /// The Id of the item
-        /// </summary>
-        public Guid Id { get; set; }
 
         public object GetExample()
         {
             return new AddTodoItemRequest
             {
                 Description = "New task",
-                Id = Guid.NewGuid()
             };
         }
     }
