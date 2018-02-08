@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "TodoApplication", "TodoApplication\TodoApplication.sfproj", "{F98B3598-A8B7-4997-8ACC-54F92662B859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoActor", "TodoActor\TodoActor.csproj", "{BF55B4A7-1F79-48AE-9B7E-E348C6CF0DB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoActor.Interfaces", "TodoActor.Interfaces\TodoActor.Interfaces.csproj", "{EA62B89F-B5C2-4041-B47A-D32CA35D3D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoWebApi", "TodoWebApi\TodoWebApi.csproj", "{37D94669-78A3-42D0-85B1-67F158C29218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F98B3598-A8B7-4997-8ACC-54F92662B859}.Debug|x64.ActiveCfg = Debug|x64
+		{F98B3598-A8B7-4997-8ACC-54F92662B859}.Debug|x64.Build.0 = Debug|x64
+		{F98B3598-A8B7-4997-8ACC-54F92662B859}.Debug|x64.Deploy.0 = Debug|x64
+		{F98B3598-A8B7-4997-8ACC-54F92662B859}.Release|x64.ActiveCfg = Release|x64
+		{F98B3598-A8B7-4997-8ACC-54F92662B859}.Release|x64.Build.0 = Release|x64
+		{F98B3598-A8B7-4997-8ACC-54F92662B859}.Release|x64.Deploy.0 = Release|x64
+		{BF55B4A7-1F79-48AE-9B7E-E348C6CF0DB9}.Debug|x64.ActiveCfg = Debug|x64
+		{BF55B4A7-1F79-48AE-9B7E-E348C6CF0DB9}.Debug|x64.Build.0 = Debug|x64
+		{BF55B4A7-1F79-48AE-9B7E-E348C6CF0DB9}.Release|x64.ActiveCfg = Release|x64
+		{BF55B4A7-1F79-48AE-9B7E-E348C6CF0DB9}.Release|x64.Build.0 = Release|x64
+		{EA62B89F-B5C2-4041-B47A-D32CA35D3D53}.Debug|x64.ActiveCfg = Debug|x64
+		{EA62B89F-B5C2-4041-B47A-D32CA35D3D53}.Debug|x64.Build.0 = Debug|x64
+		{EA62B89F-B5C2-4041-B47A-D32CA35D3D53}.Release|x64.ActiveCfg = Release|x64
+		{EA62B89F-B5C2-4041-B47A-D32CA35D3D53}.Release|x64.Build.0 = Release|x64
+		{37D94669-78A3-42D0-85B1-67F158C29218}.Debug|x64.ActiveCfg = Debug|x64
+		{37D94669-78A3-42D0-85B1-67F158C29218}.Debug|x64.Build.0 = Debug|x64
+		{37D94669-78A3-42D0-85B1-67F158C29218}.Release|x64.ActiveCfg = Release|x64
+		{37D94669-78A3-42D0-85B1-67F158C29218}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
